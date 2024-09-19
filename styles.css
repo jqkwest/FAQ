@@ -7,19 +7,24 @@
 body {
     font-family: 'Inter', sans-serif;
     src: url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+    --link-color: #4E80EE;
+    --text-color: #030616;
+    --faq-title-bg-color: #FFFFFF;
+    --page-container-bg-color: #F8FAFC;
+    
 }
 .page-container {
     width:85%;
     margin: 0 auto;
     max-width: 750px;
-    background-color: rgb(212, 218, 218);
+    background-color: var(--page-container-bg-color);
 }
 .faq-title {
     font-size: 2.25rem;
     font-weight: semi-bold;
     margin: 2rem 0;
     text-align:center;
-    background-color: rgb(250, 250, 249);
+    background-color: var(--faq-title-bg-color);
 }
 
 .faq-title h1 {
@@ -53,7 +58,7 @@ body {
 }
 
 a {
-    color: rgb(71, 165, 165);
+    color: var(--link-color);
 }
 
 p {
